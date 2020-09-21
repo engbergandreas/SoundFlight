@@ -293,7 +293,11 @@ Transform:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 1.5, y: 0.65, z: -1.5}
+=======
+  m_LocalPosition: {x: 5, y: 1, z: -4}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 5, y: 1, z: -4}
 >>>>>>> Stashed changes
