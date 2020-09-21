@@ -33,9 +33,12 @@ public class Soundtest : MonoBehaviour
         }
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     // Update size every frame
 =======
+=======
+>>>>>>> Stashed changes
     public void Test()
     {
     }
@@ -49,6 +52,7 @@ public class Soundtest : MonoBehaviour
       //FFT spectrum, Hanning window
       background_music.GetSpectrumData(spectrum,0,FFTWindow.Hanning);
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       for(int i = 0; i < band_spectrum.Length; i++){
         Transform transform = stapel_array[i].GetComponent<Transform>();
@@ -76,6 +80,11 @@ public class Soundtest : MonoBehaviour
             maxval = 0;
           }
           maxval = (maxval < spectrum[i]) ? spectrum[i] : maxval; //find max value in band range
+=======
+      for(int i = 0; i < spectrum.Length; i++){
+          HeightController hc = stapel_array[i].GetComponent<HeightController>();
+            hc.SetMinMax(stapel_array[i].transform.position.y, spectrum[i] * 10, 0.1f);
+>>>>>>> Stashed changes
 =======
       for(int i = 0; i < spectrum.Length; i++){
           HeightController hc = stapel_array[i].GetComponent<HeightController>();
